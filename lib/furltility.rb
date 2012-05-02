@@ -3,15 +3,9 @@ require "active_record"
 
 module Furltility
   module ActiveRecord
-    #module InstanceMethods
-    #  def to_param
-    #    @furl_field_value
-    #  end
-    #end
 
     module ActMacro
       def furltility(furl_field_met = :furl_field, options = {})
-        #include InstanceMethods
 
         define_method :to_param do
           param = id.to_s
@@ -22,6 +16,7 @@ module Furltility
           param
         end
       end
+
     end
   end
 end
