@@ -1,4 +1,5 @@
 require "babosa"
+require "active_record"
 
 module Furltility
   module ActiveRecord
