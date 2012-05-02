@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "railties", ">= 3.0.0"
   gem.add_dependency "activerecord", ">= 3.0.0"
-  gem.add_dependency "babosa", "0.3.7"
+  gem.add_dependency "babosa", ">= 0.3.6"
 end
