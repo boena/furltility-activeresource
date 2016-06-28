@@ -1,5 +1,4 @@
 #!/bin/bash
-gem uninstall furltility
-gem build furltility.gemspec
-gem install ./furltility-0.0.1.gem
-
+gem uninstall furltility-activeresource
+gem build furltility-activeresource.gemspec
+gem install ./furltility-activeresource-0.0.1.gem
