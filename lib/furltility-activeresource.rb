@@ -1,7 +1,7 @@
 require "babosa"
 require "active_resource"
 
-module Furltility
+module FurltilityActiveResource
   module ActiveResource
 
     module ActMacro
@@ -21,4 +21,4 @@ module Furltility
   end
 end
 
-ActiveResource::Base.extend(Furltility::ActiveResource::ActMacro)
+ActiveResource::Base.extend(FurltilityActiveResource::ActiveResource::ActMacro)
