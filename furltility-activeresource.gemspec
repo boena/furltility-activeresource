@@ -3,8 +3,8 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = "furltility-activeresource"
-  gem.version = "0.0.2"
-  gem.date = "2017-03-23"
+  gem.version = "0.0.3"
+  gem.date = "2018-08-17"
   gem.summary = "Friendly URLs"
   gem.description = "A simple yet very effective library to get awesome-looking URLs in Ruby on Rails with ActiveResource, without a database table to handle it."
   gem.authors = ["Björn Lennartsson"]
